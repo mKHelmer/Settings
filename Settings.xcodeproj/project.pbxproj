@@ -13,6 +13,7 @@
 		1AD577A81CBEA8730074DBE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD577A61CBEA8730074DBE6 /* LaunchScreen.storyboard */; };
 		7C5B89C02379D023001CB4FA /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B89BF2379D023001CB4FA /* SettingTableViewCell.swift */; };
 		7C5B89C22379D2B0001CB4FA /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B89C12379D2B0001CB4FA /* Setting.swift */; };
+		7C5B89C62379D4B1001CB4FA /* SettingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B89C52379D4B1001CB4FA /* SettingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1AD577A91CBEA8730074DBE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C5B89BF2379D023001CB4FA /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
 		7C5B89C12379D2B0001CB4FA /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		7C5B89C52379D4B1001CB4FA /* SettingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +80,21 @@
 			name = "Custom Views";
 			sourceTree = "<group>";
 		};
+		7C5B89C72379D4E2001CB4FA /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7C5B89C52379D4B1001CB4FA /* SettingController.swift */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		9D5EF6421D90557000D4952C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				1AD577A11CBEA8730074DBE6 /* Main.storyboard */,
 				7C5B89C42379D2EE001CB4FA /* Custom Views */,
 				7C5B89C32379D2B4001CB4FA /* Model  */,
+				7C5B89C72379D4E2001CB4FA /* Settings */,
 				1AD577A41CBEA8730074DBE6 /* Assets.xcassets */,
 				1AD577A61CBEA8730074DBE6 /* LaunchScreen.storyboard */,
 				1AD577A91CBEA8730074DBE6 /* Info.plist */,
@@ -165,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5B89C62379D4B1001CB4FA /* SettingController.swift in Sources */,
 				7C5B89C02379D023001CB4FA /* SettingTableViewCell.swift in Sources */,
 				1AD5779E1CBEA8730074DBE6 /* AppDelegate.swift in Sources */,
 				7C5B89C22379D2B0001CB4FA /* Setting.swift in Sources */,
